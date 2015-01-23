@@ -515,13 +515,7 @@
 }
 - (void)xDidEndEditing:(id)x{
     
-    if (self.backgroundNomarl) {
-        if (self.backgroundError && [self finalCheck] != InputCheckErrorNone) {
-            [x setBackground:[UIImage imageNamed:self.backgroundError]];
-        }else{
-            [x setBackground:[UIImage imageNamed:self.backgroundNomarl]];
-        }
-    }
+    
     
     if ([x text].length != 0  || (self.type & InputCheckTypeNotNull)) {
         
@@ -555,6 +549,14 @@
     }
     self.text = [x text];
     [x setSecureTextEntry:self.secureTextEntry];
+    
+    if (self.backgroundNomarl) {
+        if (self.backgroundError && [self finalCheck] != InputCheckErrorNone) {
+            [x setBackground:[UIImage imageNamed:self.backgroundError]];
+        }else{
+            [x setBackground:[UIImage imageNamed:self.backgroundNomarl]];
+        }
+    }
     
 #ifdef __IPHONE_7_0
     fixedStrCopy = nil;
