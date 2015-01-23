@@ -48,7 +48,7 @@
     check.type = InputCheckTypeString | InputCheckTypeMaxLength | InputCheckTypeMinLength | InputCheckTypeNotNull|InputCheckTypeCharacters;
     check.characters = @"[0-9]";
     check.maxLen = 6;
-    check.minLen = 12;
+    check.minLen = 6;
     check.secureTextEntry = YES;
     
     return check;
