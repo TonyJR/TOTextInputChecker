@@ -12,10 +12,6 @@
 		451A867F192DD5D200287C7A /* input_bg_nomarl_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 451A867B192DD5D200287C7A /* input_bg_nomarl_on.png */; };
 		451A8680192DD5D200287C7A /* input_bg_nomarl_out.png in Resources */ = {isa = PBXBuildFile; fileRef = 451A867C192DD5D200287C7A /* input_bg_nomarl_out.png */; };
 		451A8683192DD67600287C7A /* UITextFieldPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 451A8682192DD67600287C7A /* UITextFieldPadding.m */; };
-		451A8688192DD79500287C7A /* input_bg_error_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 451A8684192DD79500287C7A /* input_bg_error_on@2x.png */; };
-		451A8689192DD79500287C7A /* input_bg_error_out@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 451A8685192DD79500287C7A /* input_bg_error_out@2x.png */; };
-		451A868A192DD79500287C7A /* input_bg_nomarl_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 451A8686192DD79500287C7A /* input_bg_nomarl_on@2x.png */; };
-		451A868B192DD79500287C7A /* input_bg_nomarl_out@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 451A8687192DD79500287C7A /* input_bg_nomarl_out@2x.png */; };
 		45232CAC192D925E00028C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45232CAB192D925E00028C17 /* Foundation.framework */; };
 		45232CAE192D925E00028C17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45232CAD192D925E00028C17 /* CoreGraphics.framework */; };
 		45232CB0192D925E00028C17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45232CAF192D925E00028C17 /* UIKit.framework */; };
@@ -52,10 +48,6 @@
 		451A867C192DD5D200287C7A /* input_bg_nomarl_out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = input_bg_nomarl_out.png; sourceTree = "<group>"; };
 		451A8681192DD67600287C7A /* UITextFieldPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldPadding.h; sourceTree = "<group>"; };
 		451A8682192DD67600287C7A /* UITextFieldPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldPadding.m; sourceTree = "<group>"; };
-		451A8684192DD79500287C7A /* input_bg_error_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input_bg_error_on@2x.png"; sourceTree = "<group>"; };
-		451A8685192DD79500287C7A /* input_bg_error_out@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input_bg_error_out@2x.png"; sourceTree = "<group>"; };
-		451A8686192DD79500287C7A /* input_bg_nomarl_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input_bg_nomarl_on@2x.png"; sourceTree = "<group>"; };
-		451A8687192DD79500287C7A /* input_bg_nomarl_out@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input_bg_nomarl_out@2x.png"; sourceTree = "<group>"; };
 		45232CA8192D925E00028C17 /* TOTextInputCheckerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOTextInputCheckerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45232CAB192D925E00028C17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		45232CAD192D925E00028C17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -209,10 +201,6 @@
 		45232CED192D9FE700028C17 /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				451A8684192DD79500287C7A /* input_bg_error_on@2x.png */,
-				451A8685192DD79500287C7A /* input_bg_error_out@2x.png */,
-				451A8686192DD79500287C7A /* input_bg_nomarl_on@2x.png */,
-				451A8687192DD79500287C7A /* input_bg_nomarl_out@2x.png */,
 				451A8679192DD5D200287C7A /* input_bg_error_on.png */,
 				451A867A192DD5D200287C7A /* input_bg_error_out.png */,
 				451A867B192DD5D200287C7A /* input_bg_nomarl_on.png */,
@@ -297,14 +285,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				451A868A192DD79500287C7A /* input_bg_nomarl_on@2x.png in Resources */,
 				45232CC4192D925E00028C17 /* Images.xcassets in Resources */,
 				451A8680192DD5D200287C7A /* input_bg_nomarl_out.png in Resources */,
-				451A8688192DD79500287C7A /* input_bg_error_on@2x.png in Resources */,
 				451A867E192DD5D200287C7A /* input_bg_error_out.png in Resources */,
-				451A868B192DD79500287C7A /* input_bg_nomarl_out@2x.png in Resources */,
 				451A867D192DD5D200287C7A /* input_bg_error_on.png in Resources */,
-				451A8689192DD79500287C7A /* input_bg_error_out@2x.png in Resources */,
 				45232CB6192D925E00028C17 /* InfoPlist.strings in Resources */,
 				45232CBF192D925E00028C17 /* Main.storyboard in Resources */,
 				451A867F192DD5D200287C7A /* input_bg_nomarl_on.png in Resources */,

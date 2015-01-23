@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "TOTextInputChecker.h"
-#import "UITextView+background.h"
 
 @interface ViewController (){
     TOTextInputChecker * checker1;
@@ -94,8 +93,8 @@
     [self.text5 setBackground:[UIImage imageNamed:@"input_bg_nomarl_out.png"]];
     [self.text5 setPadding:YES top:0 right:8 bottom:0 left:8];
     
-    
-    
+}
+
     
 
 - (void)didReceiveMemoryWarning
