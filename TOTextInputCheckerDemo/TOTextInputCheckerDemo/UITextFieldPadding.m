@@ -1,8 +1,8 @@
 //
 //  UITextFieldPadding.m
-//  mbank
+//  TOTextInputCheckerDemo
 //
-//  Created by Ted on 13-11-18.
+//  Created by Tony on 13-11-18.
 //
 //
 

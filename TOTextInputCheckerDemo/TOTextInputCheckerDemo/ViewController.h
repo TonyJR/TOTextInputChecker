@@ -3,7 +3,7 @@
 //  TOTextInputCheckerDemo
 //
 //  Created by Tony on 14-5-22.
-//  Copyright (c) 2014年 PY. All rights reserved.
+//  Copyright (c) 2014年 SDNX. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -18,7 +18,6 @@
 @property (nonatomic,strong) IBOutlet UITextFieldPadding * text4;
 @property (nonatomic,strong) IBOutlet UITextFieldPadding * text5;
 
-@property (nonatomic,strong) IBOutlet UITextView *         text6;
 
-
+-(IBAction)touchDownHandler:(id)sender;
 @end

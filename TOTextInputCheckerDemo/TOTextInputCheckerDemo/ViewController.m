@@ -3,11 +3,12 @@
 //  TOTextInputCheckerDemo
 //
 //  Created by Tony on 14-5-22.
-//  Copyright (c) 2014年 PY. All rights reserved.
+//  Copyright (c) 2014年 SDNX. All rights reserved.
 //
 
 #import "ViewController.h"
 #import "TOTextInputChecker.h"
+#import "UIView+KeyboardExt.h"
 
 @interface ViewController (){
     TOTextInputChecker * checker1;
@@ -46,6 +47,8 @@
     
     //密码检查
     checker2 = [TOTextInputChecker passwordChecker];
+    checker2.maxLen = 12;
+    checker2.minLen = 6;
     
     checker2.backgroundNomarl = @"input_bg_nomarl_out.png";
     checker2.backgroundHighlighted = @"input_bg_nomarl_on.png";
@@ -93,9 +96,13 @@
     [self.text5 setBackground:[UIImage imageNamed:@"input_bg_nomarl_out.png"]];
     [self.text5 setPadding:YES top:0 right:8 bottom:0 left:8];
     
+    
+    
 }
 
-    
+-(IBAction)touchDownHandler:(id)sender{
+    [self.view hideKeyboard];
+}
 
 - (void)didReceiveMemoryWarning
 {

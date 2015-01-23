@@ -1,9 +1,9 @@
 //
 //  TOTextInput.m
-//  FrameworkTest
+//  TOTextInputChecker
 //
-//  Created by Ted on 13-11-13.
-//  Copyright (c) 2013年 Tony. All rights reserved.
+//  Created by Tony on 13-11-13.
+//  Copyright (c) 2013年 SDNX. All rights reserved.
 //
 
 #import "TOTextInputChecker.h"
@@ -48,7 +48,7 @@
     check.type = InputCheckTypeString | InputCheckTypeMaxLength | InputCheckTypeMinLength | InputCheckTypeNotNull|InputCheckTypeCharacters;
     check.characters = @"[0-9]";
     check.maxLen = 6;
-    check.minLen = 6;
+    check.minLen = 12;
     check.secureTextEntry = YES;
     
     return check;

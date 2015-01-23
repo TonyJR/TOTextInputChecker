@@ -29,6 +29,7 @@
 		45232CE5192D942E00028C17 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 45232CE4192D942E00028C17 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		45232CEA192D94BB00028C17 /* TOTextInputChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 45232CE9192D94BB00028C17 /* TOTextInputChecker.m */; };
 		45232CEC192D95E500028C17 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45232CEB192D95E500028C17 /* libicucore.dylib */; };
+		4554EBE51A72215500C498BB /* UIView+KeyboardExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554EBE41A72215500C498BB /* UIView+KeyboardExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		45232CE8192D94BB00028C17 /* TOTextInputChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOTextInputChecker.h; sourceTree = "<group>"; };
 		45232CE9192D94BB00028C17 /* TOTextInputChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOTextInputChecker.m; sourceTree = "<group>"; };
 		45232CEB192D95E500028C17 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		4554EBE31A72215500C498BB /* UIView+KeyboardExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KeyboardExt.h"; sourceTree = "<group>"; };
+		4554EBE41A72215500C498BB /* UIView+KeyboardExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KeyboardExt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 		45232CB1192D925E00028C17 /* TOTextInputCheckerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4554EBE31A72215500C498BB /* UIView+KeyboardExt.h */,
+				4554EBE41A72215500C498BB /* UIView+KeyboardExt.m */,
 				451A8681192DD67600287C7A /* UITextFieldPadding.h */,
 				451A8682192DD67600287C7A /* UITextFieldPadding.m */,
 				45232CED192D9FE700028C17 /* resource */,
@@ -316,6 +321,7 @@
 				451A8683192DD67600287C7A /* UITextFieldPadding.m in Sources */,
 				45232CE5192D942E00028C17 /* RegexKitLite.m in Sources */,
 				45232CB8192D925E00028C17 /* main.m in Sources */,
+				4554EBE51A72215500C498BB /* UIView+KeyboardExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

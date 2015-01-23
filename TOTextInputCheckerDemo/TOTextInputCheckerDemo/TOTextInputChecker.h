@@ -1,9 +1,9 @@
 //
 //  TOTextInput.h
-//  FrameworkTest
+//  TOTextInputChecker
 //
-//  Created by Ted on 13-11-13.
-//  Copyright (c) 2013年 Tony. All rights reserved.
+//  Created by Tony on 13-11-13.
+//  Copyright (c) 2013年 SDNX. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

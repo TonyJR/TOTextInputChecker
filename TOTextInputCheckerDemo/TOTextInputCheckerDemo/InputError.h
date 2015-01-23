@@ -1,9 +1,9 @@
 //
 //  InputError.h
-//  mbank
+//  TOTextInputChecker
 //
-//  Created by Ted on 13-11-18.
-//
+//  Created by Tony on 13-11-18.
+//  Copyright (c) 2013年 SDNX. All rights reserved.
 //
 
 #ifndef mbank_InputError_h
